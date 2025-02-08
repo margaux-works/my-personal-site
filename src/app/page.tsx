@@ -1,9 +1,16 @@
+import Header from '@/components/Header';
+import Hero from '@/components/Hero';
+import Projects from '@/components/Projects';
+
 export default function Home() {
   return (
-    <main className="flex items-center justify-center h-screen bg-background">
-      <h1 className="text-4xl font-bold text-white">
-        Tailwind CSS is working!
-      </h1>
+    <main className="flex h-screen bg-background">
+      <div className="flex flex-col">
+        <Header />
+
+        <Hero />
+        <Projects />
+      </div>
     </main>
   );
 }
