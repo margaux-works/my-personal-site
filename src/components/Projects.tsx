@@ -5,17 +5,18 @@ export default function Projects(): React.JSX.Element {
   const projects = [
     {
       id: '1',
-      thumbnail: '/assets/memory-game-thumbnail.png',
+      thumbnail: '/assets/thumbnail-project-1-large.webp',
       image: '/assets/memory-game.png',
-      title: 'Memory Game',
-      description: 'A fun memory game built with HTML, CSS, and JavaScript.',
-      tags: ['HTML', 'CSS', 'JavaScript'],
-      codeUrl: 'https://github.com/margaux-works/memory-game',
-      siteUrl: 'https://memory-game-demo.com',
+      title: 'Invoice App',
+      description:
+        'A full-stack solution for managing invoices. Features include CRUD operations, PDF downloads, form validations, responsive design, and secure user authentication',
+      tags: ['TypeScript', 'Angular', 'Tailwind CSS', 'NodeJS'],
+      codeUrl: 'https://github.com/margaux-works/invoice-app-client',
+      siteUrl: 'https://margaux-works.github.io/invoice-app-client/',
     },
     {
       id: '2',
-      thumbnail: '/assets/art-gallery-thumbnail.png',
+      thumbnail: '/assets/thumbnail-project-1-large.webp',
       image: '/assets/art-gallery.png',
       title: 'Art Gallery Showcase',
       description: 'A beautiful art gallery site showcasing masterpieces.',
@@ -27,7 +28,7 @@ export default function Projects(): React.JSX.Element {
 
   return (
     <section id="projects" className="py-16 px-20">
-      <div className="container mx-auto">
+      <div className="container">
         <h2 className="text-4xl font-bold text-white mb-8">Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project) => (

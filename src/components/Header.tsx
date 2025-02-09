@@ -3,9 +3,13 @@ import Image from 'next/image';
 
 export default function Header(): React.JSX.Element {
   return (
-    <header className="w-full top-5 z-10 px-20 mt-5">
+    <header className="w-full top-5 z-10 px-20 mt-5 ">
       <nav className="container mx-auto flex justify-between items-center">
-        <h1 className="font-semibold text-xl text-white">margauxespinasse</h1>
+        <a href="">
+          <h1 className="font-semibold text-xl text-white hover:text-teal hover:cursor-pointer">
+            margauxespinasse
+          </h1>
+        </a>
         <ul className="flex space-x-4">
           <li>
             <a

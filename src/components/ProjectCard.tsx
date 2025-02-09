@@ -28,16 +28,16 @@ export default function ProjectCard({
         width="600"
         height="600"
         alt={title}
-        className="w-full h-48 object-cover"
+        className="w-full object-cover"
       />
 
-      <h3>{title}</h3>
-      <p>{description}</p>
+      <h3 className="text-white pt-6 uppercase font-semibold">{title}</h3>
+      <p className="text-white">{description}</p>
       <div className="mt-2 flex flex-wrap gap-2">
         {tags.map((tag) => (
           <span
             key={tag}
-            className="bg-teal-500 text-white text-sm font-medium px-2 py-1 rounded-lg"
+            className="bg-teal-500 text-white bg-teal/75 text-sm font-medium px-2 py-1 rounded-lg hover:bg-teal "
           >
             {tag}
           </span>
@@ -48,7 +48,7 @@ export default function ProjectCard({
           href={codeUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-teal-500 hover:underline"
+          className="text-white hover:underline"
         >
           View Code
         </a>
@@ -56,7 +56,7 @@ export default function ProjectCard({
           href={siteUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-teal-500 hover:underline"
+          className="text-white hover:underline"
         >
           View Site
         </a>
