@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Footer(): React.JSX.Element {
   return (
-    <header className="w-full top-5 z-10 px-20 pt-6 pb-10">
+    <header className="w-full top-5 z-10 px-20 pt-6 pb-10 bg-gray">
       <nav className="container mx-auto flex justify-between items-center">
         <h1 className="font-semibold text-xl text-white">margauxespinasse</h1>
         <ul className="flex space-x-4">

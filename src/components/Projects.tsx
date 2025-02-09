@@ -28,6 +28,7 @@ export default function Projects(): React.JSX.Element {
 
   return (
     <section id="projects" className="py-16 px-20">
+      <hr className="w-full text-lightGray text-center pt-14 " />
       <div className="container">
         <h2 className="text-4xl font-bold text-white mb-8">Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

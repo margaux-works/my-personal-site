@@ -9,10 +9,10 @@ export default function Home() {
     <main className="flex h-screen bg-background">
       <div className="flex flex-col">
         <Header />
-
         <Hero />
         <Projects />
         <ContactForm />
+        <hr className="w-full text-lightGray text-center" />
         <Footer />
       </div>
     </main>
