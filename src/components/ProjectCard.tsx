@@ -25,10 +25,10 @@ export default function ProjectCard({
     <div className="max-w-[540px] overflow-hidden">
       <Image
         src={thumbnail}
-        width="600"
-        height="600"
+        width="400"
+        height="400"
         alt={title}
-        className="w-full object-cover"
+        className="object-cover"
       />
 
       <h3 className="text-white pt-6 uppercase font-semibold">{title}</h3>

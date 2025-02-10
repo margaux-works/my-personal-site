@@ -1,10 +1,20 @@
 import React from 'react';
 
+import Image from 'next/image';
+
 export default function Hero(): React.JSX.Element {
   return (
     <div className="w-[80%] container px-20 pt-40">
+      <Image
+        src="/assets/pattern-rings.svg"
+        alt="background image"
+        width={400}
+        height={400}
+        className="absolute -left-5 top-[150px]"
+      />
       <div>
         <p className="font-semibold text-4xl text-white">Nice to meet you!</p>
+
         <p className="font-semibold text-4xl text-white">
           I am &nbsp;
           <span className="underline decoration-teal underline-offset-[6px]">
